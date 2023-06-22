@@ -195,7 +195,7 @@
                 android:background="@drawable/search"
                 android:minHeight="@dimen/m100"
                 android:padding="@dimen/m10"
-                android:text="@string/address_text"
+                tools:text="@string/address_text"
                 android:textSize="@dimen/s16" />
         </LinearLayout>
     </RelativeLayout>

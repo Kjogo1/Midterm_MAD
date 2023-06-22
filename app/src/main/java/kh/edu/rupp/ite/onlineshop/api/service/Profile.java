@@ -17,6 +17,16 @@ public class Profile {
     private String imageUrl;
     private Date birthday;
 
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    private String address;
+
     public String getFirstName() {
         return firstName;
     }

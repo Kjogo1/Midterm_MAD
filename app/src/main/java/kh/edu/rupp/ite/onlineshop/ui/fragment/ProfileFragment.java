@@ -58,7 +58,7 @@ public class ProfileFragment extends Fragment {
 
     private void loadProfileFromServer() {
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://ferupp.s3.ap-southeast-1.amazonaws.com")
+                .baseUrl("https://raw.githubusercontent.com")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
@@ -95,6 +95,7 @@ public class ProfileFragment extends Fragment {
         fragment.gender.setText(profiles.getGender());
         String date = new SimpleDateFormat("dd MMM yyyy", Locale.getDefault()).format(profiles.getBirthday());
         fragment.birthday.setText(date);
+        fragment.address.setText(profiles.getAddress());
 //        fragment.address.setText(profiles.getAddress());
     }
 }
