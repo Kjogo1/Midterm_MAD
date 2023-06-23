@@ -9,12 +9,8 @@ import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.squareup.picasso.Picasso;
-
-import java.text.NumberFormat;
-
 import kh.edu.rupp.ite.onlineshop.api.service.Product;
 import kh.edu.rupp.ite.onlineshop.databinding.PreviewProductBinding;
-import kh.edu.rupp.ite.onlineshop.databinding.ProductListBinding;
 
 public class ProductPreviewAdapter extends ListAdapter<Product, ProductPreviewAdapter.ProductViewHolder> {
     public ProductPreviewAdapter() {

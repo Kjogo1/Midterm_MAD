@@ -14,9 +14,6 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import java.util.List;
-import java.util.Objects;
-
-import kh.edu.rupp.ite.onlineshop.R;
 import kh.edu.rupp.ite.onlineshop.adapter.ProductPreviewAdapter;
 import kh.edu.rupp.ite.onlineshop.adapter.ProductsAdapter;
 import kh.edu.rupp.ite.onlineshop.api.model.ApiService;
@@ -77,7 +74,7 @@ public class HomeFragment extends Fragment {
             }
 
             @Override
-            public void onFailure(@NonNull Call<List<Product>> call, Throwable t) {
+            public void onFailure(@NonNull Call<List<Product>> call, @NonNull Throwable t) {
                 Toast.makeText(getContext(), "Product List Failed", Toast.LENGTH_SHORT).show();
                 Log.e("[ProductFragment]", "load failed" + t.getMessage());
             }

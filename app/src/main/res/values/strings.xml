@@ -14,6 +14,7 @@
     <string name="birthday_text">Birthday</string>
     <string name="address_text">Address</string>
     <string name="product_show">Show more</string>
+    <string name="image_string">Image</string>
 
     <!--    <sting name="price">%s</sting>-->
 </resources>

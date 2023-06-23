@@ -21,7 +21,8 @@
                 android:layout_width="@dimen/m30"
                 android:layout_height="@dimen/m30"
                 android:layout_gravity="center"
-                android:src="@drawable/fe" />
+                android:src="@drawable/fe"
+                android:contentDescription="@string/image_string" />
 
             <TextView
                 android:id="@+id/toolbar_text"
@@ -37,7 +38,8 @@
                 android:layout_width="@dimen/m30"
                 android:layout_height="@dimen/m30"
                 android:layout_gravity="center"
-                android:src="@drawable/ic_profile" />
+                android:src="@drawable/ic_profile"
+                android:contentDescription="@string/image_string" />
         </LinearLayout>
 
 

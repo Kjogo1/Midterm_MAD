@@ -11,16 +11,13 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import java.util.List;
 
-import kh.edu.rupp.ite.onlineshop.R;
 import kh.edu.rupp.ite.onlineshop.adapter.ProductsAdapter;
 import kh.edu.rupp.ite.onlineshop.api.model.ApiService;
 import kh.edu.rupp.ite.onlineshop.api.service.Product;
-import kh.edu.rupp.ite.onlineshop.databinding.FragmentMoreBinding;
 import kh.edu.rupp.ite.onlineshop.databinding.FragmentProductBinding;
 import retrofit2.Call;
 import retrofit2.Callback;

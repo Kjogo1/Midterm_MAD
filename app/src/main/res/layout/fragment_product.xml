@@ -39,7 +39,8 @@
             android:layout_height="25dp"
             android:layout_gravity="center"
             android:layout_marginStart="@dimen/m10"
-            android:src="@drawable/ic_search" />
+            android:src="@drawable/ic_search"
+            android:contentDescription="@string/image_string" />
 
         <EditText
             android:layout_width="wrap_content"
@@ -47,6 +48,8 @@
             android:layout_marginStart="@dimen/m10"
             android:hint="@string/search_products"
             android:layout_gravity="center"
+            android:inputType="text"
+            android:autofillHints="@string/search_products"
             android:textSize="@dimen/s20" />
 
         <View
@@ -60,7 +63,8 @@
             android:layout_height="25dp"
             android:layout_gravity="center"
             android:layout_marginEnd="@dimen/m10"
-            android:src="@drawable/ic_camera" />
+            android:src="@drawable/ic_camera"
+            android:contentDescription="@string/image_string" />
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView

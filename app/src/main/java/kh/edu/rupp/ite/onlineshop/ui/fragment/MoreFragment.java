@@ -10,7 +10,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import kh.edu.rupp.ite.onlineshop.R;
 import kh.edu.rupp.ite.onlineshop.databinding.FragmentMoreBinding;
 
 /**
