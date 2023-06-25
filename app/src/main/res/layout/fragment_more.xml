@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     tools:context=".ui.fragment.MoreFragment">
 
     <androidx.appcompat.widget.Toolbar
@@ -21,4 +23,60 @@
     </androidx.appcompat.widget.Toolbar>
 
 
-</FrameLayout>
+    <LinearLayout
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/m10"
+        android:layout_marginTop="@dimen/m10"
+        android:layout_marginEnd="@dimen/m10"
+        android:layout_marginBottom="@dimen/m10"
+        android:orientation="horizontal"
+        android:background="@drawable/search">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/m10"
+            android:src="@drawable/ic_search"
+            android:contentDescription="@string/image_string" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/m10"
+            android:hint="@string/search_products"
+            android:layout_gravity="center"
+            android:inputType="text"
+            android:autofillHints="@string/search_products"
+            android:textSize="@dimen/s20" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="0dp"/>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/m10"
+            android:src="@drawable/ic_camera"
+            android:contentDescription="@string/image_string" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/product_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="2"
+        tools:itemCount="10"
+        tools:listitem="@layout/grid_item_list" />
+
+
+</LinearLayout>

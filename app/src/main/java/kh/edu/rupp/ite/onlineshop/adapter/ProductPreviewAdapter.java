@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.squareup.picasso.Picasso;
-import kh.edu.rupp.ite.onlineshop.api.service.Product;
+import kh.edu.rupp.ite.onlineshop.api.model.Product;
 import kh.edu.rupp.ite.onlineshop.databinding.PreviewProductBinding;
 
 public class ProductPreviewAdapter extends ListAdapter<Product, ProductPreviewAdapter.ProductViewHolder> {

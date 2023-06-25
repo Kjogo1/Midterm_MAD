@@ -12,7 +12,7 @@ import com.squareup.picasso.Picasso;
 
 import java.text.NumberFormat;
 
-import kh.edu.rupp.ite.onlineshop.api.service.Product;
+import kh.edu.rupp.ite.onlineshop.api.model.Product;
 import kh.edu.rupp.ite.onlineshop.databinding.ProductListBinding;
 
 public class ProductsAdapter extends ListAdapter<Product, ProductsAdapter.ProductViewHolder> {

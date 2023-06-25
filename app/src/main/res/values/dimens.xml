@@ -7,4 +7,8 @@
     <dimen name="m250">250dp</dimen>
     <dimen name="m60">60dp</dimen>
     <dimen name="m30">30dp</dimen>
+    <dimen name="m150">150dp</dimen>
+    <dimen name="m15">15dp</dimen>
+    <dimen name="m35">35dp</dimen>
+    <dimen name="m300">300dp</dimen>
 </resources>

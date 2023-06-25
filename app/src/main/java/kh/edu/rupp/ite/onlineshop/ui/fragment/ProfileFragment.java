@@ -17,8 +17,8 @@ import com.squareup.picasso.Picasso;
 import java.text.SimpleDateFormat;
 import java.util.Locale;
 
-import kh.edu.rupp.ite.onlineshop.api.model.ApiService;
-import kh.edu.rupp.ite.onlineshop.api.service.Profile;
+import kh.edu.rupp.ite.onlineshop.api.service.ApiService;
+import kh.edu.rupp.ite.onlineshop.api.model.Profile;
 import kh.edu.rupp.ite.onlineshop.databinding.FragmentProfileBinding;
 import retrofit2.Call;
 import retrofit2.Callback;

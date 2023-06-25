@@ -1,4 +1,4 @@
-package kh.edu.rupp.ite.onlineshop.api.service;
+package kh.edu.rupp.ite.onlineshop.api.model;
 
 import com.google.gson.annotations.SerializedName;
 
